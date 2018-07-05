@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>線上試稿資料</title>
+	<!-- mobile -->
+	<meta name="description" content="線上試稿網頁">
+
+	<!-- mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- IE相容 -->
+	<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+	<!-- normalize -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/index_css.css">
+
+	<!-- bootstrap4 CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+</head>
+<body>
+	<div class="top"></div>
+	<button onclick="topFunction()" id="backTop" class="smooth" title="backTop">Top</button>
+	<header>
+		<div id="navbar">
+		  <a id="function_Introduce" href="#function Introduce">function Introduce</a>
+		  <a id="specifications" href="#specifications">specifications</a>
+		  <a id="Related_Products" href="#Related Products">Related Products</a>
+		</div>
+		<div class="wrapbanner">
+		  <img class="img_banner" src="images/banner01.png" alt="banner">
+		  <div id="demo" class="content" style="font-size: 1.2em;">
+		  </div>
+		</div>
+	</header>
+	
+	<main class="container-fluid">
+		<div class="row">
+			<section class="container_wrap col-6">
+			  <div class="mySlides">
+			    <div class="numbertext">1 / 6</div>
+			    <img class="img_center" src="images/img_01.png" style="width:500px;">
+			  </div>
+
+			  <div class="mySlides">
+			    <div class="numbertext">2 / 6</div>
+			    <img class="img_center" src="images/img_02.png" style="width:500px">
+			  </div>
+			    
+			  <a class="prev" onclick="plusSlides(-1)">❮</a>
+			  <a class="next" onclick="plusSlides(1)">❯</a>
+
+			  <div class="caption-container">
+			    <p id="caption"></p>
+			  </div>
+
+			  <div class="row">
+			    <div class="column">
+			      <img class="demo cursor img_center" src="images/img_02.png" style="width:180px" onclick="currentSlide(1)" alt="img_01">
+			    </div>
+			    <div class="column">
+			      <img class="demo cursor img_center" src="images/img_01.png" style="width:180px" onclick="currentSlide(2)" alt="img_02">
+			    </div>
+			  </div>
+			</section>
+
+			<section class="function_Introduce col-6" style="background-color: #ff8000;">
+				<h2 style="color:#fff;margin-top:1em;">MTA-3152 </h2>
+				<p style="color:#fff;">5.2 ” IP 65 Mobile Computer Embedded FBI Fingerprint Scanner </p>
+				<button id="btn_Introduce">
+					<i class="far fa-hand-point-down fa-lg" style="margin:0.2em;"></i>
+					function Introduce
+				</button>
+				<div id="panel_Introduce" style="position:absolute;">
+					Midas Touch MTA-3152 with abundant functions is an Android rugged mobile computer. With its powerful quad-core processor, stable wireless connections and comprehensive data capture options, you can find this easy-to-deploy device a valuable helper to increase productivity. Especially, it is improved to enable capacitive fingerprint sensor. It is revolutionized to be FIPS 201 compliant,  and enable secure data encryption and fake finger detection. This mobile computer with biometric functions can best satisfy your needs for identity verification. It is ideal for population census and national election.
+				</div>
+				<img class="img_Introduce" src="images/Introduce.jpg" alt="Introduce">
+				<h3 style="color:#fff;">Features<i class="fas fa-bars" style="margin:0.2em;"></i></h3>
+				<ul id="ul_Introduce">
+					<li>Accurate Biometric Reading Reliable Identity Verification– Gives the device the capability of decoding almost all kinds of 1D/2D barcodes with high accuracy and speed, even those damaged and poor quality codes.</li>
+					<li>Barcode Scanning– Gives the device the capability of decoding almost all kinds of 1D/2D barcodes with high accuracy and speed, even those damaged and poor quality codes.</li>
+					<li>High-Definition Camera– Boasts a 13MP autofocus color camera with flash.</li>
+					<li>NFC– Distinctive features such as high security, fast and stable connectivity, and low power consumption meet the needs of user authentication and e-payment.</li>
+					<li>GPS– Highly precise Global Navigation Satellite System (GNSS) receiver, using GPS, GLONASS or BeiDou module, improve application accuracy. It also supports A-GPS to enhance quality and precision in positioning.</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+	<mark class="specifications" style="margin:0.5em 0;"><h3>Mobile Computer Embedded FBI Fingerprint Scanner Specifications</h3></mark>
+	<main class="container-fluid">
+		<div class="row">
+			<section class="col-6">
+				<table class="table table-hover">
+				  <thead class="thead-dark">
+				    <tr>
+				      <th scope="col" colspan="2">Physical Characteristics</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">Dimensions</th>
+				      <td>164.2*78.8*17mm/6.46*3.10*0.67in  (for  standard version)</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Weight</th>
+				      <td><285g/10.05oz (for standard version)</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Display</th>
+				      <td colspan="2">5.2” IPS FHD 1920×1080</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Touch Panel</th>
+				      <td colspan="2">Corning Gorilla Glass, multi-touch panel, gloves and wet hands supported</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Power</th>
+				      <td colspan="2">Main battery: Li-ion, rechargeable, built-in 5000mAh, Standby: over 350 hours, Continuous use: over 12 hours (depending on user environment), Charging time: 3-4 hours (with standard adaptor and USB cable)</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Expansion Slot</th>
+				      <td colspan="2">1 slot for SIM card, 1 slot for SIM or TF card, optional PSAM slot (2 at most, ISO7816 protocol)</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Interfaces</th>
+				      <td colspan="2">USB 2.0 Type-C, OTG</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Audio</th>
+				      <td colspan="2">Speaker, 2 microphones</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Keypad</th>
+				      <td colspan="2">4 front keys, 1 power key, 2 scan keys, 1 multifunctional key</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Sensors</th>
+				      <td colspan="2">Gravity sensor, light sensor, proximity sensor, vibration motor</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</section>
+			<section class="col-6">
+				<div class="row">
+					<div class="col-12">
+						<table class="table table-hover">
+						  <thead class="thead-dark">
+						    <tr>
+						      <th scope="col" colspan="2">performance</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th scope="row">CPU</th>
+						      <td>Cortex-A53 Quad-core 1.3GHz</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">RAM+ROM</th>
+						      <td>2GB+16GB</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Expansion</th>
+						      <td colspan="2">Supports up to 32 GB Micro SD card</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+					<div class="col-12">
+						<table class="table table-hover">
+						  <thead class="thead-dark">
+						    <tr>
+						      <th scope="col" colspan="2">User Environment</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th scope="row">Operating Temp.</th>
+						      <td>-4F to 122F / -20C to 50C</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Storage Temp.</th>
+						      <td>-40F to 158F / -40C to 70C</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Humidity</th>
+						      <td colspan="2">5%RH – 95%RH non condensing</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Drop Specification</th>
+						      <td colspan="2">Multiple 1.8m/5.9ft drops (at least 20 times) to the concrete across the operating temperature range</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Tumble Specification</th>
+						      <td colspan="2">±8KV air discharge, ±4KV conductive discharge</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Sealing</th>
+						      <td colspan="2">IP67</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">ESD</th>
+						      <td colspan="2">±8KV air discharge, ±4KV conductive discharge</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	
+	<aside class="Related_Products container" style="margin:2em auto;">
+		<h3 style="text-align:center;margin:2em 0;">Related Products</h3>
+		<div class="row">
+			<div class="col-3 otherwrap">
+				<img src="images/other01.jpg" title="other01" width="250" height="164" />
+				<a class="overlay" href="#"></a>
+				<div class="overlay02">MTB-3116</div>
+			</div>
+			<div class="col-3 otherwrap">
+				<img src="images/other02.png" title="other01" width="250" height="164" />
+				<a class="overlay" href="#"></a>
+				<div class="overlay02">MTA-3055</div>
+			</div>
+			<div class="col-3 otherwrap">
+				<img src="images/other03.jpg" title="other01" width="250" height="164" />
+				<a class="overlay" href="#"></a>
+				<div class="overlay02">MTA-3078</div>
+			</div>
+			<div class="col-3 otherwrap">
+				<img src="images/other04.jpg" title="other01" width="250" height="164" />
+				<a class="overlay" href="#"></a>
+				<div class="overlay02">MTB-3116</div>
+			</div>
+		</div>
+	</aside>
+
+	<footer>
+		<div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <p>電話：(XX)XXXXXXXX</p>
+                  <p>電子郵件：XXXXXe@gmail.com</p>
+              </div>
+              
+              <div class="col-md-4">
+                  <ul class="social-buttons" align="center">
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                      <li><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
+                  </ul>
+              </div>
+              
+              <div class="col-md-4">
+                  <p class="text-right">版權所有 &copy; 我的公司 2018</p>
+              </div>
+          </div>
+        </div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		/* 回最上 */
+		function scrollFunction() {
+		    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		        document.getElementById("backTop").style.display = "block";
+		    } else {
+		        document.getElementById("backTop").style.display = "none";
+		    }
+		}
+		/* smooth移動 */
+		$(function(){
+			$(".smooth").click(function(){
+				$('html, body').stop(true, false).animate({scrollTop: $('.top').offset().top - 20},{duration:1000},'easeOutExpo');	
+				return false;
+			});	
+
+			$("#function_Introduce").click(function(){
+				$('html, body').stop(true, false).animate({scrollTop: $('.function_Introduce').offset().top - 20},{duration:1000},'easeOutExpo');	
+				return false;
+			});
+			$("#specifications").click(function(){
+				$('html, body').stop(true, false).animate({scrollTop: $('.specifications').offset().top - 20},{duration:1000},'easeOutExpo');	
+				return false;
+			});
+			$("#Related_Products").click(function(){
+				$('html, body').stop(true, false).animate({scrollTop: $('.Related_Products').offset().top - 20},{duration:1000},'easeOutExpo');	
+				return false;
+			});
+		})
+
+		/* navbar */
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		  /* 回最上function */
+		  scrollFunction();
+		  var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+		    document.getElementById("navbar").style.top = "0";
+		  } else {
+		    document.getElementById("navbar").style.top = "-50px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
+
+		/* 檢視圖片 */
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("demo");
+		  var captionText = document.getElementById("caption");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+
+		/* 展開介紹 */
+		$(document).ready(function(){
+		    $("#btn_Introduce").click(function(){
+		        $("#panel_Introduce").slideToggle("slow");
+		    });
+		});
+
+		/* 打字機 */
+		var i = 0;
+		var txt = 'MTA-3152 5.2 ” IP 65 Mobile Computer Embedded FBI Fingerprint Scanner';
+		var speed = 50;
+
+		function typeWriter() {
+		  if (i < txt.length) {
+		    document.getElementById("demo").innerHTML += txt.charAt(i);
+		    i++;
+		    setTimeout(typeWriter, speed);
+		  }
+		}
+		typeWriter();
+	</script>
+</body>
+</html>
